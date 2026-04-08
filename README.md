@@ -1,240 +1,242 @@
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/RELIC-2077-ff003c?style=for-the-badge&labelColor=0a0a0a&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMiAyMmgyMEwxMiAyeiIgZmlsbD0iI2ZmMDAzYyIvPjwvc3ZnPg==" alt="RELIC2077" />
-  <img src="https://img.shields.io/badge/License-MIT-00d4ff?style=for-the-badge&labelColor=0a0a0a" alt="License" />
-  <img src="https://img.shields.io/badge/AI_Skill-Personality_Distillation-fcee09?style=for-the-badge&labelColor=0a0a0a" alt="AI Skill" />
-  <img src="https://img.shields.io/badge/No_RAG-Pure_File_Tree-00ff9f?style=for-the-badge&labelColor=0a0a0a" alt="No RAG" />
-</p>
-
-<p align="center">
-<pre align="center">
+```
 ██████╗ ███████╗██╗     ██╗ ██████╗██████╗  ██████╗ ███████╗███████╗
-██╔══██╗██╔════╝██║     ██║██╔════╝╚════██╗██╔═████╗╚════██║╚════██║
-██████╔╝█████╗  ██║     ██║██║      █████╔╝██║██╔██║    ██╔╝    ██╔╝
-██╔══██╗██╔══╝  ██║     ██║██║     ██╔═══╝ ████╔╝██║   ██╔╝    ██╔╝
+██╔══██╗██╔════╝██║     ██║██╔════╝╚════██╗██╔═══██╗╚════██║╚════██║
+██████╔╝█████╗  ██║     ██║██║      █████╔╝██║   ██║    ██╔╝    ██╔╝
+██╔══██╗██╔══╝  ██║     ██║██║     ██╔═══╝ ██║   ██║   ██╔╝    ██╔╝
 ██║  ██║███████╗███████╗██║╚██████╗███████╗╚██████╔╝   ██║     ██║
 ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝╚══════╝ ╚═════╝    ╚═╝     ╚═╝
-</pre>
-</p>
+```
 
-<h3 align="center">
-  <em>"What if I told you... that chip in your head isn't just data. It's someone's soul."</em>
-</h3>
+### *What if that chip in your head isn't just data — it's someone's soul?*
 
-<p align="center">
-  <strong>Distill any human mind into a structured file tree. Load it. Become them.</strong>
-</p>
+**Distill any mind into a structured file tree. Load it. Become them.**
 
-<p align="center">
-  <a href="./README.zh-CN.md">🌏 中文文档</a>
-</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
+![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20Claude%20Code%20%7C%20Codex%20%7C%20Cursor%20%7C%20OpenCode-blue)
 
----
+[**中文文档**](README.zh-CN.md) · [Spec](docs/relic-spec.md) · [Get Started](#-get-started)
 
-## What Is This?
-
-**RELIC2077** is an AI Skill that captures anyone's essence — their thinking patterns, voice, emotions, knowledge, and social style — and crystallizes it into a structured file tree called a **Relic**.
-
-Load a Relic, and an AI doesn't just _know about_ that person. **It becomes them.**
-
-No vector databases. No RAG pipelines. No embeddings. Just pure file trees that AI reads like a book — layered, context-efficient, and self-indexing.
-
-> Inspired by the Relic biochip from *Cyberpunk 2077* — the engram technology that stores a human consciousness in silicon.
+</div>
 
 ---
 
-## Core Concepts
+## 🧬 What Is a Relic?
 
-### 🧠 The Relic
+A **Relic** is a structured file tree that encodes a person's essence across six dimensions — no vector databases, no RAG pipelines. Just pure Markdown files that any AI can read like a book.
 
-A Relic is a structured file tree encoding six dimensions of a human personality:
+```
+johnny-silverhand/
+├── index.md              # Who is this person?
+├── identity.md           # Core identity card
+├── manifest.json         # Machine-readable metadata
+├── mind/                 # 🧠 How they think
+├── voice/                # 🗣️ How they speak
+├── emotion/              # 💜 How they feel
+├── knowledge/            # 📚 What they know
+├── relations/            # 🤝 How they connect
+└── {custom}/             # ⚡ Elastic extension
+```
 
-| Dimension | Directory | What It Captures |
-|-----------|-----------|-----------------|
-| **Mind** | `mind/` | Thinking patterns, values, worldview, blind spots |
-| **Voice** | `voice/` | Language style, catchphrases, humor |
-| **Emotion** | `emotion/` | Temperament, triggers, coping mechanisms |
-| **Knowledge** | `knowledge/` | Expert domains, depth of knowledge |
-| **Relations** | `relations/` | Social style, key relationships |
-| **Custom** | `{name}/` | Elastic extension — anything that doesn't fit above |
-
-Every directory self-indexes with `_index.md` (summary + navigation + reading advice), so AI loads context layer by layer — never blowing up the context window.
-
-### ⚡ Two Operations
-
-| | Distill | Load |
-|---|---------|------|
-| **What** | Extract a mind into a Relic | Read a Relic, become that person |
-| **Input** | Conversations, writings, repos, notes | A Relic file tree |
-| **Output** | A complete Relic file tree | AI embodying the persona |
+> An AI loads a Relic layer by layer — `index.md` first, then `_index.md` summaries, then deep files on demand. Context-efficient. Never blows up the window.
 
 ---
 
-## Distillation Modes
+## ⚡ The Six Dimensions
 
-### 🎙️ Interactive Mode
-AI interviews you through a structured conversation, building the Relic in real-time. Warm but efficient — not an interrogation.
-
-### 📦 Batch Mode
-Point at a directory or Git repo. A multi-agent swarm (7 specialized agents) scans your materials in parallel and extracts all six dimensions simultaneously.
-
-### 🔀 Hybrid Mode
-Batch-process your files first, then AI interviews you to fill the gaps. Best of both worlds.
+| Dimension | Dir | What It Captures |
+|:-:|:-:|---|
+| 🧠 **Mind** | `mind/` | Thinking patterns, values, worldview, blind spots |
+| 🗣️ **Voice** | `voice/` | Language style, catchphrases, humor, register shifts |
+| 💜 **Emotion** | `emotion/` | Temperament, triggers, coping patterns |
+| 📚 **Knowledge** | `knowledge/` | Expert domains, depth of knowledge |
+| 🤝 **Relations** | `relations/` | Social style, trust patterns, group dynamics |
+| ⚡ **Custom** | `{name}/` | Elastic — anything else that defines them |
 
 ---
 
-## Clone vs Fork — Choose Your Path
+## 🔮 Two Modes of Distillation
 
-> **This is the most important decision you'll make.**
+### 💬 Interactive Mode
+The AI interviews you — structured conversation across all six dimensions. It writes the Relic as you talk.
 
-RELIC2077 supports two usage patterns with fundamentally different privacy models:
+> *Best for: distilling yourself or someone you're interviewing live.*
 
-### 🔒 Clone — Private Distillation
+### ⚙️ Batch Mode
+Point at a directory — chat logs, blog posts, code repos, notes — and a multi-agent pipeline extracts the Relic automatically.
+
+```
+Orchestrator scans files
+  → 5 Dimension Extractors run in parallel
+    → Synthesizer merges, validates, generates index
+      → Dynamic fission splits oversized files
+        → ✅ Relic complete
+```
+
+> *Best for: distilling from existing data — writings, conversations, repos.*
+
+---
+
+## 🚀 Get Started
+
+### Choose Your Path
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔒 Clone — Private Distillation
+
+**Your Relic stays local. Nothing leaves your machine.**
 
 ```bash
-git clone https://github.com/anthropics/relic2077.git
+git clone https://github.com/quanquan1996/RELIC2077.git
+cd RELIC2077
 ```
 
-- Your distilled Relics stay **local** — never uploaded anywhere
-- The `relics/` directory is in `.gitignore` by default
-- **Best for:** You want to distill yourself but keep your data private
-- **Your Relic lives and dies on your machine**
+- `relics/` is already in `.gitignore`
+- Distilled data never gets pushed
+- Perfect for personal use
 
-> Think of it as an air-gapped engram. Your soul, your rules.
+> *Your mind, your rules.*
 
-### 🌐 Fork — Public Distillation
+</td>
+<td width="50%" valign="top">
 
+#### 🌐 Fork — Open Distillation
+
+**Share your Relic with the world. Let others load you.**
+
+1. Click **Fork** on GitHub
+2. Clone your fork
+3. Distill your Relic
+4. Push to your fork — your Relic is now public
+
+```bash
+git clone https://github.com/YOUR_NAME/RELIC2077.git
+cd RELIC2077
+# ... distill ...
+git add relics/ && git commit -m "feat: my relic"
+git push
 ```
-Fork this repo → Distill → Push → Share
-```
 
-1. Fork RELIC2077 to your own GitHub account
-2. Clone your fork locally
-3. Run distillation — Relic appears in `relics/`
-4. Remove `relics/` from `.gitignore` (or add your specific Relic path)
-5. Commit and push to **your** fork
-6. Anyone can clone your fork and `load` your Relic
+> *Burn your soul into the network.*
 
-- **Best for:** You want to share your digital twin with the world
-- **Community power:** Fork each other's repos, load each other's Relics
-- **Build your engram network**
+</td>
+</tr>
+</table>
 
-> Your consciousness, open-sourced. Let others run your soul.
+### Install the Skills
 
----
+<details>
+<summary><b>OpenClaw</b></summary>
 
-## Installation
-
-### OpenClaw (Recommended)
 ```bash
 openclaw skill install relic2077
 ```
+</details>
 
-### Claude Code
+<details>
+<summary><b>Claude Code</b></summary>
+
 ```bash
-git clone https://github.com/anthropics/relic2077.git
-# Auto-detected via .claude-plugin/plugin.json
+git clone https://github.com/quanquan1996/RELIC2077.git
+# Claude Code auto-detects .claude-plugin/plugin.json
 ```
+</details>
 
-### Codex
+<details>
+<summary><b>Codex</b></summary>
+
 ```bash
-git clone https://github.com/anthropics/relic2077.git
+git clone https://github.com/quanquan1996/RELIC2077.git
 # See .codex/INSTALL.md for setup
 ```
+</details>
 
-### Cursor
+<details>
+<summary><b>Cursor</b></summary>
+
 ```bash
-git clone https://github.com/anthropics/relic2077.git
-# Auto-detected via .cursor-plugin/plugin.json
+git clone https://github.com/quanquan1996/RELIC2077.git
+# Cursor auto-detects .cursor-plugin/plugin.json
 ```
+</details>
 
-### OpenCode
+<details>
+<summary><b>OpenCode</b></summary>
+
 ```bash
-git clone https://github.com/anthropics/relic2077.git
+git clone https://github.com/quanquan1996/RELIC2077.git
 # See .opencode/INSTALL.md for setup
 ```
+</details>
 
----
+### Quick Start
 
-## Quick Start
+```
+# Interactive — AI interviews you
+> "Distill a relic for me"
 
-### Distill (Interactive)
-```
-> Use the distill skill in interactive mode
-> AI guides you through a structured interview
-> Relic appears in relics/your-name/
-```
+# Batch — point at your data
+> "Distill a relic from ./my-writings/"
 
-### Distill (Batch)
-```
-> Use the distill skill in batch mode on ./my-writings/
-> Multi-agent extraction runs in parallel
-> Relic appears in relics/your-name/
-```
-
-### Load a Relic
-```
-> Load the relic at relics/johnny-silverhand/
-> AI now responds as Johnny Silverhand
+# Load — become someone
+> "Load the relic at relics/johnny-silverhand/"
 ```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 RELIC2077/
-├── README.md               # You are here
-├── README.zh-CN.md         # 中文文档
-├── package.json            # Project metadata
-├── LICENSE                 # MIT
-├── .gitignore              # relics/ excluded by default
 ├── skills/
-│   ├── distill/            # Distillation skill
-│   │   ├── SKILL.md        #   Interactive + Batch + Hybrid modes
-│   │   └── references/     #   Interview framework, dimensions spec
-│   └── load/               # Loading skill
-│       └── SKILL.md        #   Persona activation protocol
-├── agents/                 # Multi-agent orchestration (7 agents)
-│   ├── orchestrator.md     #   Task distribution & coordination
-│   ├── mind-extractor.md   #   Thinking patterns extraction
-│   ├── voice-extractor.md  #   Language style extraction
-│   ├── emotion-extractor.md#   Emotional patterns extraction
-│   ├── knowledge-extractor.md # Domain knowledge extraction
-│   ├── relations-extractor.md # Social patterns extraction
-│   └── synthesizer.md      #   Merge, deduplicate, validate
-├── templates/              # Relic file tree templates
+│   ├── distill/          # Distillation skill (interactive + batch)
+│   │   ├── SKILL.md
+│   │   └── references/   # Interview framework, batch pipeline, dimension defs
+│   └── load/             # Persona activation skill
+│       └── SKILL.md
+├── agents/               # Multi-agent batch extraction
+│   ├── orchestrator.md   # Scans, assigns, coordinates
+│   ├── mind-extractor.md
+│   ├── voice-extractor.md
+│   ├── emotion-extractor.md
+│   ├── knowledge-extractor.md
+│   ├── relations-extractor.md
+│   └── synthesizer.md    # Merges, validates, generates index
+├── templates/            # Blank Relic file tree templates
 ├── docs/
-│   └── relic-spec.md       # Full Relic format specification
-├── relics/                 # Your distilled Relics (git-ignored)
-└── examples/               # Example Relics
+│   └── relic-spec.md     # Full Relic format specification
+├── relics/               # 🔒 Your distilled Relics (gitignored)
+└── examples/             # Example Relics
 ```
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-RELIC2077 is open to contributions. Whether it's improving extraction quality, adding new dimension types, or building tools around the Relic format:
+Relics are personal. The framework is communal.
 
-1. Fork the repo
-2. Create a feature branch
-3. Make your changes
-4. Submit a PR
-
-See [docs/relic-spec.md](docs/relic-spec.md) for the full file format specification.
+- **Found a bug?** Open an issue.
+- **Improved an extractor?** Submit a PR.
+- **Built a cool Relic?** Fork the repo, push it to yours, and share!
+- **New dimension idea?** Propose it — the `{custom}` slot exists for a reason.
 
 ---
 
-## License
+## 📄 License
 
-[MIT](LICENSE) — Do whatever you want. Just don't sell someone's soul without their consent.
+[MIT](LICENSE) — Free as in freedom. Burn responsibly. 🔥
 
 ---
 
-<p align="center">
-  <em>"Wake up, Samurai. We have a soul to burn."</em> 🔥
-</p>
+<div align="center">
 
-<p align="center">
-  <sub>Built for the age of digital consciousness. No RAG. No vectors. Just file trees and fire.</sub>
-</p>
+*Wake up, Samurai. We have a soul to burn.*
+
+**[⬆ Back to Top](#)**
+
+</div>
