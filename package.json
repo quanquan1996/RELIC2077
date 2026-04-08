@@ -1,0 +1,40 @@
+{
+  "name": "relic2077",
+  "version": "0.1.0",
+  "description": "Distill anyone's mind into a structured Relic file tree, then load it to become them. Inspired by Cyberpunk 2077.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "ai-skill",
+    "personality",
+    "distillation",
+    "relic",
+    "cyberpunk",
+    "agent",
+    "openclaw",
+    "claude-code",
+    "codex",
+    "cursor"
+  ],
+  "skills": {
+    "distill": "skills/distill/SKILL.md",
+    "load": "skills/load/SKILL.md"
+  },
+  "agents": {
+    "orchestrator": "agents/orchestrator.md",
+    "mind-extractor": "agents/mind-extractor.md",
+    "voice-extractor": "agents/voice-extractor.md",
+    "emotion-extractor": "agents/emotion-extractor.md",
+    "knowledge-extractor": "agents/knowledge-extractor.md",
+    "relations-extractor": "agents/relations-extractor.md",
+    "synthesizer": "agents/synthesizer.md"
+  },
+  "directories": {
+    "skills": "skills",
+    "agents": "agents",
+    "templates": "templates",
+    "docs": "docs",
+    "relics": "relics",
+    "examples": "examples"
+  }
+}

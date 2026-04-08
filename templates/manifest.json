@@ -1,0 +1,22 @@
+{
+  "_comment": "manifest.json — Machine-readable Relic metadata / Relic 机器可读元数据",
+  "name": "{NAME}",
+  "version": "1.0.0",
+  "created": "{ISO_DATE}",
+  "updated": "{ISO_DATE}",
+  "total_files": 0,
+  "total_tokens_estimate": 0,
+  "depth_max": 2,
+  "dimensions": {
+    "mind": { "files": 0, "tokens": 0 },
+    "voice": { "files": 0, "tokens": 0 },
+    "emotion": { "files": 0, "tokens": 0 },
+    "knowledge": { "files": 0, "tokens": 0 },
+    "relations": { "files": 0, "tokens": 0 }
+  },
+  "custom_dimensions": [],
+  "source": {
+    "mode": "{interactive|batch|hybrid}",
+    "materials": "{BRIEF_DESCRIPTION_OF_SOURCES}"
+  }
+}
