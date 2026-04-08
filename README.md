@@ -3,29 +3,51 @@
 <img src="https://img.shields.io/badge/%E2%96%88%E2%96%88%E2%96%88-RELIC2077-ff003c?style=for-the-badge&labelColor=0d0d0d" alt="RELIC2077" />
 
 ```
-██████╗ ███████╗██╗     ██╗ ██████╗██████╗  ██████╗ ███████╗███████╗
-██╔══██╗██╔════╝██║     ██║██╔════╝╚════██╗██╔═══██╗╚════██║╚════██║
-██████╔╝█████╗  ██║     ██║██║      █████╔╝██║   ██║    ██╔╝    ██╔╝
-██╔══██╗██╔══╝  ██║     ██║██║     ██╔═══╝ ██║   ██║   ██╔╝    ██╔╝
-██║  ██║███████╗███████╗██║╚██████╗███████╗╚██████╔╝   ██║     ██║
-╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝╚══════╝ ╚═════╝    ╚═╝     ╚═╝
+ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ██ ▄▄▀█ ▄▄▄█ █████ ▄▄█ ▄▄▀████▀▄▄▀█▀▄▀██▄██▄██
+ ██ ▀▀▄█ ▄▄▄█ █████ ▄▄█ █████████ ██ █ █▀██ ▄██ ▄█
+ ██ ██ █ ▀▀▀█▄▄▄██ ▀▀█ ▀▀▄████▄ ▀▀ ██▄██ ▀▀█ ▀▀█
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ ░▒▓█ C O G N I T I V E   D I S T I L L A T I O N   P R O T O C O L █▓▒░
+```
+
+```
+ ██████╗ ███████╗██╗     ██╗ ██████╗██████╗  ██████╗ ███████╗███████╗
+ ██╔══██╗██╔════╝██║     ██║██╔════╝╚════██╗██╔═══██╗╚════██║╚════██║
+ ██████╔╝█████╗  ██║     ██║██║      █████╔╝██║   ██║    ██╔╝    ██╔╝
+ ██╔══██╗██╔══╝  ██║     ██║██║     ██╔═══╝ ██║   ██║   ██╔╝    ██╔╝
+ ██║  ██║███████╗███████╗██║╚██████╗███████╗╚██████╔╝   ██║     ██║
+ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝╚══════╝ ╚═════╝    ╚═╝     ╚═╝
 ```
 
 <br/>
 
-> *"What if that chip in your head isn't just data — it's someone's soul?"*
+```
+ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ▓  0xDE4D::SOUL_INJECT > "What if that chip in your head isn't just data —        ▓
+ ▓                          it's someone's soul?"                                   ▓
+ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+```
 
 <br/>
 
-**Distill any human mind into a structured file tree.<br/>Load it into any AI. Become them.**
+**`> Distill any human mind into a structured file tree. Load it into any AI. Become them._`**
 
 <br/>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-00ff9f.svg?style=flat-square)](#-contributing)
-![Platform](https://img.shields.io/badge/Works_With-OpenClaw_%7C_Claude_Code_%7C_Codex_%7C_Cursor_%7C_OpenCode-blue?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-ff003c.svg?style=flat-square&labelColor=0d0d0d)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-00ff9f.svg?style=flat-square&labelColor=0d0d0d)](#-contributing)
+![Platform](https://img.shields.io/badge/Works_With-OpenClaw_%7C_Claude_Code_%7C_Codex_%7C_Cursor_%7C_OpenCode-00f0ff?style=flat-square&labelColor=0d0d0d)
+![Zero Deps](https://img.shields.io/badge/Dependencies-Zero__Pure__Green-00ff9f?style=flat-square&labelColor=0d0d0d)
 
 ---
+
+
+```
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ ░ SYS::NAV > EN_US | ZH_CN | SPEC | QUICKSTART                                    ░
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
 
 [**中文文档**](README.zh-CN.md)&ensp;·&ensp;[Spec](docs/relic-spec.md)&ensp;·&ensp;[Quick Start](#-quick-start)&ensp;·&ensp;[Clone vs Fork](#-choose-your-path)
 
@@ -33,88 +55,113 @@
 
 <br/>
 
-## 🧬 What Is a Relic?
+## `> cat /sys/relic/README`
+
+```
+ ┌──────────────────────────────────────────────────────────────────────────────────┐
+ │  ░▒▓ RELIC2077 — Cognitive Distillation Protocol ▓▒░                            │
+ │                                                                                  │
+ │  ▸ Type: AI Skill (pure Markdown protocol layer)                                │
+ │  ▸ Dependencies: None. Zero. Pure green. No packages, no builds, no compiles.   │
+ │  ▸ Runtime: Any AI platform that can read Markdown                              │
+ │  ▸ Install: git clone / openclaw install / just copy the files                  │
+ │  ▸ Side effects: None. Won't touch your system, registry, or node_modules.      │
+ │                                                                                  │
+ │  This is not a traditional software package. No npm install, no pip install,    │
+ │  no build step. RELIC2077 is a set of plain-text protocol files — Markdown +    │
+ │  JSON — defining a cognitive distillation standard. AI reads these files like    │
+ │  an instruction manual, then executes distillation or loading operations.        │
+ │  Your disk gets a few .md files. That's it.                                     │
+ └──────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+## `0x01` 🧬 What Is a Relic?
 
 A **Relic** is a structured Markdown file tree that encodes a person's cognitive fingerprint across **six dimensions** — no vector databases, no RAG pipelines, no embeddings. Just files that any AI can read like a book and *become* that person.
 
 ```
-johnny-silverhand/
-├── index.md              # Overview — who is this person?
-├── identity.md           # Core identity card
-├── manifest.json         # Machine-readable metadata
-│
-├── mind/                 # 🧠 How they think
-│   ├── _index.md
-│   ├── thinking-patterns.md
-│   ├── values.md
-│   └── worldview.md
-│
-├── voice/                # 🗣️ How they speak
-│   ├── _index.md
-│   ├── style.md
-│   └── catchphrases.md
-│
-├── emotion/              # 💜 How they feel
-│   ├── _index.md
-│   ├── temperament.md
-│   └── triggers.md
-│
-├── knowledge/            # 📚 What they know
-│   ├── _index.md
-│   └── domains.md
-│
-├── relations/            # 🤝 How they connect
-│   ├── _index.md
-│   └── social-style.md
-│
-└── {custom}/             # ⚡ Anything else that defines them
+ ┌─ johnny-silverhand/ ──────────────────────────────────────────────┐
+ │                                                                   │
+ │  ├── index.md              # ░▒▓ Overview — who is this person?   │
+ │  ├── identity.md           # ░▒▓ Core identity card               │
+ │  ├── manifest.json         # ░▒▓ Machine-readable metadata        │
+ │  │                                                                │
+ │  ├── mind/                 # 🧠 How they think                    │
+ │  │   ├── _index.md              ├─ Dimension summary              │
+ │  │   ├── thinking-patterns.md   ├─ Thinking patterns              │
+ │  │   ├── values.md              ├─ Values                         │
+ │  │   └── worldview.md           └─ Worldview                      │
+ │  │                                                                │
+ │  ├── voice/                # 🗣️ How they speak                    │
+ │  │   ├── _index.md              ├─ Dimension summary              │
+ │  │   ├── style.md               ├─ Language style                 │
+ │  │   └── catchphrases.md        └─ Catchphrases                   │
+ │  │                                                                │
+ │  ├── emotion/              # 💜 How they feel                     │
+ │  │   ├── _index.md              ├─ Dimension summary              │
+ │  │   ├── temperament.md         ├─ Temperament                    │
+ │  │   └── triggers.md            └─ Triggers                       │
+ │  │                                                                │
+ │  ├── knowledge/            # 📚 What they know                    │
+ │  │   ├── _index.md              ├─ Dimension summary              │
+ │  │   └── domains.md             └─ Expert domains                 │
+ │  │                                                                │
+ │  ├── relations/            # 🤝 How they connect                  │
+ │  │   ├── _index.md              ├─ Dimension summary              │
+ │  │   └── social-style.md        └─ Social style                   │
+ │  │                                                                │
+ │  └── {custom}/             # ⚡ Anything else that defines them    │
+ │                                                                   │
+ └───────────────────────────────────────────────────────────────────┘
 ```
 
-> **Context-efficient by design.** AI loads layer by layer — `index.md` → dimension `_index.md` summaries → deep files on demand. Never blows up the context window.
+> **`[SYS] Context-efficient by design.`** AI loads layer by layer — `index.md` → dimension `_index.md` summaries → deep files on demand. Never blows up the context window.
 
 <br/>
 
-## ⚡ The Six Dimensions
+## `0x02` ⚡ The Six Dimensions
 
-<table>
-<tr>
-<td align="center" width="16%">🧠<br/><b>Mind</b></td>
-<td align="center" width="16%">🗣️<br/><b>Voice</b></td>
-<td align="center" width="16%">💜<br/><b>Emotion</b></td>
-<td align="center" width="16%">📚<br/><b>Knowledge</b></td>
-<td align="center" width="16%">🤝<br/><b>Relations</b></td>
-<td align="center" width="16%">⚡<br/><b>Custom</b></td>
-</tr>
-<tr>
-<td>Thinking patterns, values, worldview, blind spots</td>
-<td>Language style, catchphrases, humor, register shifts</td>
-<td>Temperament, triggers, coping patterns</td>
-<td>Expert domains, depth of knowledge</td>
-<td>Social style, trust patterns, group dynamics</td>
-<td>Elastic — anything else that defines them</td>
-</tr>
-</table>
+```
+ ╔══════════╦══════════╦══════════╦══════════╦══════════╦══════════╗
+ ║ 🧠 Mind   ║ 🗣️ Voice  ║ 💜 Emotion║ 📚 Know   ║ 🤝 Relate ║ ⚡ Custom ║
+ ╠══════════╬══════════╬══════════╬══════════╬══════════╬══════════╣
+ ║ Thinking ║ Language ║ Tempera- ║ Expert   ║ Social   ║ Elastic  ║
+ ║ patterns ║ style    ║ ment     ║ domains  ║ style    ║ slots    ║
+ ║ Values   ║ Catch-   ║ Triggers ║ Depth of ║ Trust    ║ Anything ║
+ ║ World-   ║ phrases  ║ Coping   ║ knowledge║ patterns ║ that     ║
+ ║ view     ║ Humor    ║ patterns ║          ║ Group    ║ defines  ║
+ ║ Blind    ║ Register ║          ║          ║ dynamics ║ them     ║
+ ║ spots    ║ shifts   ║          ║          ║          ║          ║
+ ╚══════════╩══════════╩══════════╩══════════╩══════════╩══════════╝
+```
 
-> Five hard-coded dimensions + unlimited `{custom}` slots. A Relic grows with its subject.
+> `5` hard-coded dimensions + `∞` `{custom}` expansion slots. A Relic grows with its subject.
 
 <br/>
 
-## 🔮 Two Modes of Distillation
+## `0x03` 🔮 Two Modes of Distillation
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💬 Interactive Mode
+### `MODE::INTERACTIVE` 💬
 
 The AI interviews you — a structured conversation across all six dimensions. It writes the Relic as you talk.
 
 ```
-You: "I tend to think in systems..."
-AI:  → writes mind/thinking-patterns.md
-AI:  "How do you handle disagreements?"
-You: "I go quiet first, then..."
-AI:  → writes emotion/triggers.md
+ ┌─ DISTILL SESSION ──────────────────┐
+ │                                     │
+ │ You: "I tend to think in systems…"  │
+ │ AI:  → writes mind/thinking-patterns│
+ │ AI:  "How do you handle conflict?"  │
+ │ You: "I go quiet first, then…"      │
+ │ AI:  → writes emotion/triggers      │
+ │                                     │
+ │ [████████████████░░░░] 78% ▒▒▒     │
+ └─────────────────────────────────────┘
 ```
 
 > *Best for: distilling yourself, or someone you're interviewing live.*
@@ -122,16 +169,21 @@ AI:  → writes emotion/triggers.md
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ Batch Mode
+### `MODE::BATCH` ⚙️
 
 Point at a directory of existing data — chat logs, blog posts, code repos, notes — and a **multi-agent pipeline** extracts the Relic automatically.
 
 ```
-Orchestrator scans source files
-  → 5 Dimension Extractors run in parallel
-    → Synthesizer merges + validates
-      → Dynamic fission splits oversized files
-        → ✅ Relic complete
+ ┌─ BATCH PIPELINE ───────────────────┐
+ │                                     │
+ │ Orchestrator scans source files     │
+ │   → 5 Dimension Extractors parallel │
+ │     → Synthesizer merges + validates│
+ │       → Dynamic fission splits      │
+ │         → ✅ Relic complete          │
+ │                                     │
+ │ [████████████████████] COMPLETE ■   │
+ └─────────────────────────────────────┘
 ```
 
 > *Best for: distilling from existing data — writings, conversations, repos.*
@@ -142,15 +194,19 @@ Orchestrator scans source files
 
 <br/>
 
-## 🛤️ Choose Your Path
+## `0x04` 🛤️ Choose Your Path
 
-RELIC2077 supports two usage patterns with fundamentally different privacy models:
+```
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ ░ RELIC2077 supports two usage patterns with fundamentally different privacy models ░
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔒 Clone — Private Distillation
+### 🔒 `CLONE` — Private Distillation
 
 **Your Relic stays local. Nothing leaves your machine.**
 
@@ -174,7 +230,7 @@ cd RELIC2077
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Fork — Open Distillation
+### 🌐 `FORK` — Open Distillation
 
 **Share your Relic with the world. Let others load you.**
 
@@ -207,9 +263,9 @@ git push
 
 <br/>
 
-## 🚀 Quick Start
+## `0x05` 🚀 Quick Start
 
-### 1. Install
+### `STEP 1` — Install
 
 <details>
 <summary><b>OpenClaw</b> — one command</summary>
@@ -255,7 +311,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 ```
 </details>
 
-### 2. Distill
+### `STEP 2` — Distill
 
 ```
 # Interactive — AI interviews you
@@ -265,7 +321,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 > "Distill a relic from ./my-writings/"
 ```
 
-### 3. Load
+### `STEP 3` — Load
 
 ```
 # Become someone
@@ -274,47 +330,116 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## 📁 Project Structure
+## `0x06` 🏗️ Technical Architecture
 
 ```
-RELIC2077/
-│
-├── skills/
-│   ├── distill/              # Distillation skill (interactive + batch)
-│   │   ├── SKILL.md
-│   │   └── references/       # Interview framework, batch pipeline, dimension defs
-│   └── load/                 # Persona activation skill
-│       └── SKILL.md
-│
-├── agents/                   # Multi-agent batch extraction pipeline
-│   ├── orchestrator.md       # Scans, assigns, coordinates
-│   ├── mind-extractor.md     # 🧠
-│   ├── voice-extractor.md    # 🗣️
-│   ├── emotion-extractor.md  # 💜
-│   ├── knowledge-extractor.md # 📚
-│   ├── relations-extractor.md # 🤝
-│   └── synthesizer.md        # Merges, validates, generates index
-│
-├── templates/                # Blank Relic scaffolding
-├── docs/                     # Specification & deep docs
-│   └── relic-spec.md         # Full Relic format specification
-├── examples/                 # Example Relics
-├── relics/                   # 🔒 Your distilled Relics (gitignored)
-│
-├── .claude-plugin/           # Claude Code integration
-├── .codex/                   # Codex integration
-├── .cursor-plugin/           # Cursor integration
-├── .opencode/                # OpenCode integration
-├── package.json
-├── LICENSE
-└── SPEC.md                   # Build specification
+ ┌──────────────────────────────────────────────────────────────────────────────────┐
+ │                                                                                  │
+ │  ░▒▓ RELIC2077 Tech Stack ▓▒░                                                   │
+ │                                                                                  │
+ │  ┌─────────────────────────────────────────────────────────────────────────────┐ │
+ │  │ Protocol Layer                                                              │ │
+ │  │                                                                             │ │
+ │  │  Pure Markdown + JSON text protocol. No runtime, no compilation, no        │ │
+ │  │  transpilation. Files are interfaces, directories are routes, _index.md    │ │
+ │  │  files are summary indices. AI obtains its complete instruction set by     │ │
+ │  │  reading the file tree — a "filesystem-as-API" design paradigm.           │ │
+ │  └─────────────────────────────────────────────────────────────────────────────┘ │
+ │                                                                                  │
+ │  ┌─────────────────────────────────────────────────────────────────────────────┐ │
+ │  │ Context Scheduling                                                          │ │
+ │  │                                                                             │ │
+ │  │  Three-tier progressive loading strategy:                                  │ │
+ │  │    L0  index.md          → Global overview (~200 tokens)                   │ │
+ │  │    L1  */_index.md       → Dimension summaries (~500 tokens/dim)           │ │
+ │  │    L2  Specific files    → On-demand deep dive (variable)                  │ │
+ │  │                                                                             │ │
+ │  │  Dynamic fission: files > 2000 words auto-split into subdirectory +        │ │
+ │  │  _index.md, ensuring no single read exceeds context window budget.         │ │
+ │  └─────────────────────────────────────────────────────────────────────────────┘ │
+ │                                                                                  │
+ │  ┌─────────────────────────────────────────────────────────────────────────────┐ │
+ │  │ Multi-Agent Orchestration                                                   │ │
+ │  │                                                                             │ │
+ │  │  Batch distillation uses a 1+5+1 fan-out/fan-in architecture:             │ │
+ │  │                                                                             │ │
+ │  │    Orchestrator ──┬── Mind Extractor ────┐                                 │ │
+ │  │                   ├── Voice Extractor ───┤                                 │ │
+ │  │                   ├── Emotion Extractor ──┼── Synthesizer                  │ │
+ │  │                   ├── Knowledge Extractor ┤                                 │ │
+ │  │                   └── Relations Extractor ┘                                 │ │
+ │  │                                                                             │ │
+ │  │  File allocation strategy:                                                 │ │
+ │  │    < 50KB   → Whole-file dispatch, single-context processing              │ │
+ │  │    50-200KB → Sliding-window slicing, preserving semantic boundaries       │ │
+ │  │    > 200KB  → Multi-pass iterative processing, incremental merge          │ │
+ │  └─────────────────────────────────────────────────────────────────────────────┘ │
+ │                                                                                  │
+ │  ┌─────────────────────────────────────────────────────────────────────────────┐ │
+ │  │ Zero-Dependency Philosophy                                                  │ │
+ │  │                                                                             │ │
+ │  │  RELIC2077 is not a software package — it's a cognitive distillation       │ │
+ │  │  protocol.                                                                 │ │
+ │  │                                                                             │ │
+ │  │  ✗ No npm install          ✗ No pip install                               │ │
+ │  │  ✗ No build step           ✗ No runtime dependencies                      │ │
+ │  │  ✗ No node_modules         ✗ No virtual environments                      │ │
+ │  │  ✗ No system modifications ✗ No registry writes                           │ │
+ │  │                                                                             │ │
+ │  │  ✓ Plain text files (.md + .json)                                         │ │
+ │  │  ✓ git clone and go                                                       │ │
+ │  │  ✓ Delete the folder to fully uninstall                                   │ │
+ │  │  ✓ Zero pollution to your system                                          │ │
+ │  └─────────────────────────────────────────────────────────────────────────────┘ │
+ │                                                                                  │
+ └──────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
 
-## 🤝 Contributing
+## `0x07` 📁 Project Structure
 
-Relics are personal. The framework is communal.
+```
+ RELIC2077/
+ │
+ ├── skills/
+ │   ├── distill/              # ░▒▓ Distillation skill (interactive + batch)
+ │   │   ├── SKILL.md
+ │   │   └── references/       # Interview framework, batch pipeline, dimension defs
+ │   └── load/                 # ░▒▓ Persona activation skill
+ │       └── SKILL.md
+ │
+ ├── agents/                   # ░▒▓ Multi-agent batch extraction pipeline
+ │   ├── orchestrator.md       # Scans, assigns, coordinates
+ │   ├── mind-extractor.md     # 🧠
+ │   ├── voice-extractor.md    # 🗣️
+ │   ├── emotion-extractor.md  # 💜
+ │   ├── knowledge-extractor.md # 📚
+ │   ├── relations-extractor.md # 🤝
+ │   └── synthesizer.md        # Merges, validates, generates index
+ │
+ ├── templates/                # ░▒▓ Blank Relic scaffolding
+ ├── docs/                     # ░▒▓ Specification & deep docs
+ │   └── relic-spec.md         # Full Relic format specification
+ ├── examples/                 # ░▒▓ Example Relics
+ ├── relics/                   # 🔒 Your distilled Relics (gitignored)
+ │
+ ├── .claude-plugin/           # Claude Code integration
+ ├── .codex/                   # Codex integration
+ ├── .cursor-plugin/           # Cursor integration
+ ├── .opencode/                # OpenCode integration
+ ├── package.json              # Metadata (zero dependencies)
+ ├── LICENSE
+ └── SPEC.md                   # Build specification
+```
+
+<br/>
+
+## `0x08` 🤝 Contributing
+
+```
+ ░ Relics are personal. The framework is communal. ░
+```
 
 | Want to... | Do this |
 |---|---|
@@ -325,7 +450,7 @@ Relics are personal. The framework is communal.
 
 <br/>
 
-## 📄 License
+## `0x09` 📄 License
 
 [MIT](LICENSE) — Free as in freedom. Burn responsibly.
 
@@ -335,7 +460,18 @@ Relics are personal. The framework is communal.
 
 <br/>
 
-*Wake up, Samurai. We have a soul to burn.* 🔥
+```
+ ░▒▓████████████████████████████████████████████████████████████████████████▓▒░
+ ░▒▓█                                                                    █▓▒░
+ ░▒▓█   Wake up, Samurai. We have a soul to burn.                        █▓▒░
+ ░▒▓█                                                                    █▓▒░
+ ░▒▓████████████████████████████████████████████████████████████████████████▓▒░
+```
+
+```
+ 0xFFFF::END_TRANSMISSION ██████████████████████████████ [RELIC2077 v0.1.0]
+ ▓▒░ pid:2077 | mem:∞ | soul:loaded | status:BURNING ░▒▓
+```
 
 <br/>
 
