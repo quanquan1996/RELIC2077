@@ -479,7 +479,36 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x09` 🤝 参与贡献
+## `0x09` 🔥 Demo Relic
+
+```
+ ░▒▓█ 看看 RELIC2077 的实际产出 —— 从毛选五卷蒸馏出的完整 Relic。 █▓▒░
+```
+
+### [🔴 Teacher Mao Relic](https://github.com/quanquan1996/teacher-mao-relic)
+
+> 教员思维操作系统 — 35 个文件 · 6 大维度 · ~30K tokens
+
+从《毛泽东选集》第一至五卷蒸馏的方法论人格 Relic。展示了：
+
+- **批量蒸馏** — 6 个并行提取器 + 合成器
+- **增量蒸馏** — 两轮蒸馏逐步丰富
+- **自定义维度** — `methodology/` 含子目录动态分裂（`nine-weapons/`）
+- **跨维度一致性** — 6 个维度交叉验证无矛盾
+
+```
+ teacher-mao-relic/
+ ├── mind/          # 🧠 矛盾分析、阶级分析、转化论、解剖麻雀
+ ├── voice/         # 🗣️ 文言/白话/理论三层语域切换
+ ├── emotion/       # 💜 "热烈的冷静" + 7大情绪调节机制
+ ├── knowledge/     # 📚 10大知识领域
+ ├── relations/     # 🤝 统一战线、民主集中制
+ └── methodology/   # ⚙️ 九大思想武器 + 工作流组合
+```
+
+<br/>
+
+## `0x0A` 🤝 参与贡献
 
 ```
  ░ Relic 是私人的。框架是公共的。░
@@ -494,7 +523,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x0A` 📄 开源协议
+## `0x0B` 📄 开源协议
 
 [MIT](LICENSE) — 自由如自由。负责任地燃烧。
 

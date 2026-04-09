@@ -485,7 +485,36 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x09` 🤝 Contributing
+## `0x09` 🔥 Demo Relic
+
+```
+ ░▒▓█ See RELIC2077 in action — a full Relic distilled from Mao Zedong’s writings. █▓▒░
+```
+
+### [🔴 Teacher Mao Relic](https://github.com/quanquan1996/teacher-mao-relic)
+
+> 教员思维操作系统 — 35 files · 6 dimensions · ~30K tokens
+
+A methodology-focused Relic distilled from 毛泽东选集 (Selected Works vol.1–5). Demonstrates:
+
+- **Batch distillation** with 6 parallel extractors + synthesizer
+- **Incremental distillation** — two-pass enrichment
+- **Custom dimension** (`methodology/`) with sub-directory fission (`nine-weapons/`)
+- **Cross-dimensional consistency** across all 6 dimensions
+
+```
+ teacher-mao-relic/
+ ├── mind/          # 🧠 矛盾分析、阶级分析、转化论、解剖麻雀
+ ├── voice/         # 🗣️ 文言/白话/理论三层语域切换
+ ├── emotion/       # 💜 "热烈的冷静" + 7大情绪调节机制
+ ├── knowledge/     # 📚 10大知识领域
+ ├── relations/     # 🤝 统一战线、民主集中制
+ └── methodology/   # ⚙️ 九大思想武器 + 工作流组合
+```
+
+<br/>
+
+## `0x0A` 🤝 Contributing
 
 ```
  ░ Relics are personal. The framework is communal. ░
@@ -500,7 +529,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x0A` 📄 License
+## `0x0B` 📄 License
 
 [MIT](LICENSE) — Free as in freedom. Burn responsibly.
 
