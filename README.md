@@ -512,6 +512,27 @@ A methodology-focused Relic distilled from 毛泽东选集 (Selected Works vol.1
  └── methodology/   # ⚙️ 九大思想武器 + 工作流组合
 ```
 
+### [🔴 Hitler Relic](https://github.com/quanquan1996/hitler-relic)
+
+> Cognitive operating system for analytical study — 22 files · 6 dimensions · ~25K tokens
+
+An analytical Relic distilled from *Mein Kampf*, Speeches Collection 1922–1945, and *Table Talk* 1941–1944. Demonstrates:
+
+- **Large-corpus batch distillation** — 6.9MB of primary sources → 79 thematic chunks → 6 extractors
+- **Custom dimension** (`rhetoric/`) — propaganda theory & persuasion mechanics
+- **Embedded-summary strategy** — pre-digested context for oversized source files
+- **Analytical framing** — clinical dissection without endorsement
+
+```
+ hitler-relic/
+ ├── mind/          # 🧠 Binary logic, social Darwinism, conspiracy thinking
+ ├── voice/         # 🗣️ Escalation architecture, 5 metaphor clusters
+ ├── emotion/       # 💜 Volcanic intensity through a narrow aperture
+ ├── knowledge/     # 📚 8 domains (propaganda 5/5, economics 1/5)
+ ├── relations/     # 🤝 Führerprinzip, divide-and-conquer, loyalty theology
+ └── rhetoric/      # 📢 6 propaganda rules + 4-phase speech architecture
+```
+
 <br/>
 
 ## `0x0A` 🤝 Contributing
