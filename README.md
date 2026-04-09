@@ -49,7 +49,7 @@
  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-[**中文文档**](README.zh-CN.md)&ensp;·&ensp;[Spec](docs/relic-spec.md)&ensp;·&ensp;[Quick Start](#-quick-start)&ensp;·&ensp;[Clone vs Fork](#-choose-your-path)
+[**中文文档**](README.zh-CN.md)&ensp;·&ensp;[Spec](docs/relic-spec.md)&ensp;·&ensp;[Quick Start](#0x06--quick-start)&ensp;·&ensp;[Spec-Driven](#0x04--spec-driven-execution)&ensp;·&ensp;[Clone vs Fork](#0x05--choose-your-path)
 
 </div>
 
@@ -194,7 +194,57 @@ Point at a directory of existing data — chat logs, blog posts, code repos, not
 
 <br/>
 
-## `0x04` 🛤️ Choose Your Path
+## `0x04` 📝 Spec-Driven Execution
+
+```
+ ░▒▓█ Batch distillation is spec-driven — plan first, execute second. █▓▒░
+```
+
+Before any file is read or any agent is spawned, the orchestrator generates a **distillation spec** (`.distill-spec.md`) — a full execution plan that serves as review gate, execution tracker, and audit trail.
+
+```
+ ┌─ SPEC-DRIVEN PIPELINE ───────────────────────────────────────────────┐
+ │                                                                    │
+ │  1. Scan         ─▶ List files + sizes (metadata only)               │
+ │  2. Spec         ─▶ Write .distill-spec.md (execution plan)          │
+ │  ─── REVIEW GATE ─── user confirms before proceeding ───          │
+ │  3. Pre-read     ─▶ Read all files via read tool (CJK-safe)          │
+ │  4. Refine       ─▶ Adjust spec based on actual content              │
+ │  5. Embed        ─▶ Inline content into task packets                 │
+ │  6. Execute      ─▶ Parallel extractors (⏳/✅/❌ tracked in spec)    │
+ │  7. Synthesize   ─▶ Merge, deduplicate, validate                    │
+ │  8. Density      ─▶ Dynamic fission for oversized files              │
+ │  9. Validate     ─▶ Run checklist                                   │
+ │  10. Finalize    ─▶ Append results to spec                          │
+ │                                                                    │
+ └────────────────────────────────────────────────────────────────────┘
+```
+
+### Why Spec-Driven?
+
+| Advantage | How |
+|---|---|
+| **Review gate** | User sees the full plan before committing tokens/time. Adjust scope, dimensions, or file assignments before execution. |
+| **Execution tracking** | Each dimension’s status is updated in the spec as extractors run (⏳ dispatched → ✅ complete → ❌ failed). |
+| **Audit trail** | After completion, the spec documents every decision: which files went to which extractor, what was skipped, and why. |
+| **Reproducibility** | Re-running with the same spec produces the same file assignments. |
+| **Debugging** | When an extractor produces poor output, the spec shows exactly what content it received. |
+| **No wasted reads** | Orchestrator pre-reads all files once, embeds content in task packets. Extractors never touch disk — avoids CJK encoding issues and redundant I/O. |
+
+### Pre-Execution Protocol
+
+Before any distillation starts, the AI always:
+
+1. **Clarifies requirements** — Who is the target? What’s the source? Which dimensions? What does the LLM already know (skip common knowledge)?
+2. **Determines mode** — Interactive, Batch, or Hybrid.
+3. **Presents the plan** — For batch: the `.distill-spec.md`. For interactive: interview outline.
+4. **Gets explicit confirmation** — Never starts extraction until the user says go.
+
+> *No surprise token burns. No "oops, it read 200 files I didn’t want." You see the plan, you approve the plan, then it runs.*
+
+<br/>
+
+## `0x05` 🛤️ Choose Your Path
 
 ```
  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -263,7 +313,7 @@ git push
 
 <br/>
 
-## `0x05` 🚀 Quick Start
+## `0x06` 🚀 Quick Start
 
 ### `STEP 1` — Install
 
@@ -330,7 +380,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x06` 🏗️ Technical Architecture
+## `0x07` 🏗️ Technical Architecture
 
 ```
  ┌──────────────────────────────────────────────────────────────────────────────────┐
@@ -397,7 +447,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x07` 📁 Project Structure
+## `0x08` 📁 Project Structure
 
 ```
  RELIC2077/
@@ -435,7 +485,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x08` 🤝 Contributing
+## `0x09` 🤝 Contributing
 
 ```
  ░ Relics are personal. The framework is communal. ░
@@ -450,7 +500,7 @@ git clone https://github.com/quanquan1996/RELIC2077.git
 
 <br/>
 
-## `0x09` 📄 License
+## `0x0A` 📄 License
 
 [MIT](LICENSE) — Free as in freedom. Burn responsibly.
 
