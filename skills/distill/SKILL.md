@@ -5,9 +5,29 @@ Distill extracts a person's essence — thoughts, voice, emotions, knowledge, re
 
 **Trigger phrases:** "distill", "蒸馏", "extract relic", "create relic", "build relic", "capture personality", "记录人格"
 
-## Mode Selection (模式判断)
+## Quick Start (快速开始)
 
-On trigger, determine the mode:
+```
+蒸馏 <名字>              → 交互式采访，通过对话提取人格
+从 <目录> 蒸馏 <名字>     → 批量提取，从文件中自动提取
+从 <目录> 蒸馏 <名字>，缺的问我  → 混合模式
+```
+
+## Pre-Execution Protocol (执行前协议)
+
+**MANDATORY: Never start extraction immediately. Always complete the following steps first.**
+
+### Step 1: Clarify Requirements (澄清需求)
+
+Ask the user to confirm:
+- **Who** — The target person/persona to distill. Is this a real person, a historical figure, a fictional character, or an abstract methodology?
+- **Source** — Where does the raw material come from? (conversation, directory, repo, URL, or a mix)
+- **Scope** — Are all six dimensions needed, or only specific ones? Any custom dimensions?
+- **Known context** — For well-known figures (historical, public), what does the LLM already know? What is unique in the source material that the LLM does NOT know? (Avoid redundant extraction of common knowledge.)
+- **Output location** — Default is `{skill_dir}/relics/{name}/`, confirm or override.
+- **Language** — Output in Chinese, English, or mixed?
+
+### Step 2: Determine Mode (确定模式)
 
 | Signal | Mode |
 |--------|------|
@@ -17,6 +37,34 @@ On trigger, determine the mode:
 
 If ambiguous, ask:
 > I can distill a Relic in two ways: **interview you** directly, or **scan your files/repos**. Which do you prefer? (Or both?)
+
+### Step 3: Present Plan (展示计划)
+
+**For Interactive mode:**
+- List the dimensions to cover and estimated number of questions.
+- Propose interview order (e.g., "Mind first, then Voice, then...").
+- Estimate time: "~15 minutes for a basic Relic, ~30 for a rich one."
+
+**For Batch mode:**
+- Run Step 1 of the batch flow (Scan & Inventory) — metadata only.
+- Generate `.distill-spec.md` — the full execution plan.
+- Present the spec summary to the user:
+  - How many files, total size
+  - Which dimensions will be extracted
+  - How many parallel agents
+  - Expected output structure
+- **Wait for explicit user confirmation before proceeding.**
+
+**For Hybrid mode:**
+- Present both the batch scan plan AND which dimensions will likely need interactive supplementation.
+
+### Step 4: Get Explicit Confirmation (获取确认)
+
+**Do NOT proceed until the user explicitly says to go ahead.** Acceptable confirmations:
+- "好的，开始" / "确认" / "go" / "执行" / "开始蒸馏"
+- Or the user modifies the plan and then confirms.
+
+**If the user says "直接做" or similar at the very start**, still complete Steps 1-3 but compress them into a single concise summary + confirmation request. Never skip the plan entirely.
 
 ## Output Location (产物存放)
 
