@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050508"/>
+      <stop offset="30%" style="stop-color:#0a0a1a"/>
+      <stop offset="70%" style="stop-color:#0d0815"/>
+      <stop offset="100%" style="stop-color:#050508"/>
+    </linearGradient>
+    <linearGradient id="neon-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff003c"/>
+      <stop offset="50%" style="stop-color:#ff2d6a"/>
+      <stop offset="100%" style="stop-color:#ff003c"/>
+    </linearGradient>
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f0ff"/>
+      <stop offset="50%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="neon-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff9f"/>
+      <stop offset="100%" style="stop-color:#00ffcc"/>
+    </linearGradient>
+    <filter id="glow-red">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-cyan">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow-green">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="280" fill="url(#bg)" rx="12"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#1a1a2e" stroke-width="0.3" opacity="0.3">
+    <line x1="0" y1="70" x2="800" y2="70"/>
+    <line x1="0" y1="140" x2="800" y2="140"/>
+    <line x1="0" y1="210" x2="800" y2="210"/>
+    <line x1="200" y1="0" x2="200" y2="280"/>
+    <line x1="400" y1="0" x2="400" y2="280"/>
+    <line x1="600" y1="0" x2="600" y2="280"/>
+  </g>
+
+  <!-- Scattered glitch/matrix characters -->
+  <g font-family="'Courier New', monospace" opacity="0.12" fill="#00ff9f">
+    <text x="35" y="25" font-size="9">0xDE4D</text>
+    <text x="720" y="20" font-size="8">ﾃﾞｰﾀ</text>
+    <text x="90" y="265" font-size="8">认知蒸馏</text>
+    <text x="680" y="268" font-size="9">0x7F</text>
+    <text x="15" y="140" font-size="7">ﾆｭｰﾛﾝ</text>
+    <text x="755" y="145" font-size="8">█▓░</text>
+    <text x="55" y="195" font-size="7">FFCA3E</text>
+    <text x="730" y="90" font-size="7">ﾚﾘｯｸ</text>
+    <text x="160" y="50" font-size="7">▒▓█▒</text>
+    <text x="620" y="50" font-size="7">灵魂协议</text>
+    <text x="50" y="100" font-size="8">SYN</text>
+    <text x="740" y="200" font-size="7">ACK</text>
+    <text x="300" y="268" font-size="7">distill://soul.relic</text>
+    <text x="500" y="22" font-size="7">pid:2077 mem:∞</text>
+  </g>
+  <g font-family="'Courier New', monospace" opacity="0.06" fill="#ff003c">
+    <text x="110" y="155" font-size="6">ERR_SOUL_NOT_FOUND</text>
+    <text x="580" y="160" font-size="6">OVERRIDE_PERSONA</text>
+    <text x="350" y="40" font-size="6">▓▓▓▓▓▓▓▓▓▓▓▓</text>
+  </g>
+  
+  <!-- Corner accents -->
+  <polyline points="0,30 0,0 30,0" fill="none" stroke="#ff003c" stroke-width="2" opacity="0.7"/>
+  <polyline points="770,0 800,0 800,30" fill="none" stroke="#ff003c" stroke-width="2" opacity="0.7"/>
+  <polyline points="0,250 0,280 30,280" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.7"/>
+  <polyline points="770,280 800,280 800,250" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Glitch bar accents -->
+  <rect x="0" y="72" width="45" height="2" fill="#ff003c" opacity="0.15"/>
+  <rect x="760" y="108" width="40" height="1.5" fill="#00f0ff" opacity="0.15"/>
+  <rect x="0" y="215" width="30" height="1" fill="#00ff9f" opacity="0.12"/>
+  
+  <!-- Top accent line -->
+  <rect x="150" y="28" width="500" height="1" fill="url(#neon-red)" opacity="0.5"/>
+  
+  <!-- Glitch offset layers for title -->
+  <text x="402" y="90" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="56" font-weight="bold" fill="#ff003c" opacity="0.3" letter-spacing="8">RELIC2077</text>
+  <text x="398" y="90" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="56" font-weight="bold" fill="#00f0ff" opacity="0.25" letter-spacing="8">RELIC2077</text>
+  
+  <!-- Main title -->
+  <text x="400" y="90" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="56" font-weight="bold" fill="url(#neon-red)" filter="url(#glow-red)" letter-spacing="8">
+    RELIC2077
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="135" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="14" fill="url(#neon-cyan)" filter="url(#glow-cyan)" letter-spacing="4" opacity="0.9">
+    认知蒸馏协议
+  </text>
+  
+  <!-- Divider -->
+  <rect x="250" y="155" width="300" height="1" fill="url(#neon-cyan)" opacity="0.3"/>
+  
+  <!-- Tagline -->
+  <text x="400" y="185" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="13" fill="#a0a0b0" letter-spacing="1">
+    将任何人的思维蒸馏为结构化文件树
+  </text>
+  <text x="400" y="208" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="13" fill="#a0a0b0" letter-spacing="1">
+    加载到任意 AI · 成为他们
+  </text>
+  
+  <!-- Bottom tech badges -->
+  <text x="400" y="248" text-anchor="middle" font-family="'Courier New', 'SF Mono', monospace" font-size="10" fill="url(#neon-green)" filter="url(#glow-green)" letter-spacing="3" opacity="0.7">
+    零依赖 · 纯 MARKDOWN · 全平台兼容
+  </text>
+</svg>

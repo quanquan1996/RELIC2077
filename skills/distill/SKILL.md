@@ -47,12 +47,15 @@ Reference: [`references/interview.md`](references/interview.md)
 Reference: [`references/batch.md`](references/batch.md)
 
 ### Flow
-1. **Scan** the target directory/repo to inventory files.
-2. **Assign** files to dimension-specific extractor agents (see `agents/` directory).
-3. **Execute** extractors in parallel via sub-agents.
-4. **Synthesize** — the synthesizer agent merges outputs, resolves conflicts, generates `index.md` and `manifest.json`.
-5. **Density check** — apply dynamic splitting rules.
-6. **Validate** — run the validation checklist.
+1. **Scan & Inventory** — List all files with sizes (metadata only, do NOT read content yet). Output a scan manifest.
+2. **Pre-read** — Orchestrator reads ALL processable files using the `read` tool (not shell commands, to avoid CJK encoding issues). Store content in memory.
+3. **Assign & Embed** — Route files to dimension extractors. Build task packets with **file content embedded inline** so extractors never need to read from disk.
+4. **Execute** — Spawn extractors in parallel via sub-agents. Each receives its content in the task packet.
+5. **Synthesize** — the synthesizer agent merges outputs, resolves conflicts, generates `index.md` and `manifest.json`.
+6. **Density check** — apply dynamic splitting rules.
+7. **Validate** — run the validation checklist.
+
+**Key principle:** Extractors should NEVER read source files themselves. The orchestrator pre-reads everything and delivers content in task packets. This avoids encoding issues and redundant I/O.
 
 ### Agent Roster
 | Agent | File | Role |
