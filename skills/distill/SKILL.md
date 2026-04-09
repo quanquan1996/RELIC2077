@@ -48,14 +48,19 @@ Reference: [`references/batch.md`](references/batch.md)
 
 ### Flow
 1. **Scan & Inventory** — List all files with sizes (metadata only, do NOT read content yet). Output a scan manifest.
-2. **Pre-read** — Orchestrator reads ALL processable files using the `read` tool (not shell commands, to avoid CJK encoding issues). Store content in memory.
-3. **Assign & Embed** — Route files to dimension extractors. Build task packets with **file content embedded inline** so extractors never need to read from disk.
-4. **Execute** — Spawn extractors in parallel via sub-agents. Each receives its content in the task packet.
-5. **Synthesize** — the synthesizer agent merges outputs, resolves conflicts, generates `index.md` and `manifest.json`.
-6. **Density check** — apply dynamic splitting rules.
-7. **Validate** — run the validation checklist.
+2. **Generate Spec** — Write `.distill-spec.md` to the output directory. This is the execution plan: file inventory, dimension assignments, token budgets, expected outputs. Review before proceeding.
+3. **Pre-read** — Orchestrator reads ALL processable files using the `read` tool (not shell commands, to avoid CJK encoding issues). Store content in memory.
+4. **Refine Spec** — After reading content, update the spec if assignments need adjustment.
+5. **Assign & Embed** — Build task packets with **file content embedded inline**. Extractors never read from disk.
+6. **Execute** — Spawn extractors in parallel via sub-agents. Update spec with status (⏳/✅/❌).
+7. **Synthesize** — the synthesizer agent merges outputs, resolves conflicts, generates `index.md` and `manifest.json`.
+8. **Density check** — apply dynamic splitting rules.
+9. **Validate** — run the validation checklist.
+10. **Finalize Spec** — Append result summary to `.distill-spec.md`.
 
-**Key principle:** Extractors should NEVER read source files themselves. The orchestrator pre-reads everything and delivers content in task packets. This avoids encoding issues and redundant I/O.
+**Key principles:**
+- **Spec-driven**: The `.distill-spec.md` is written BEFORE any file reading or agent spawning. It serves as review gate, execution tracker, and audit trail.
+- **No disk reads by extractors**: The orchestrator pre-reads everything and delivers content in task packets. This avoids encoding issues and redundant I/O.
 
 ### Agent Roster
 | Agent | File | Role |

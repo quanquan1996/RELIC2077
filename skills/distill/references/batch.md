@@ -6,7 +6,7 @@ This guide covers extracting a Relic from a corpus of files using multi-agent pa
 
 ### Scan Strategy
 
-**CRITICAL: The orchestrator MUST complete Phase 1 entirely before spawning any extractor agents. Never skip the inventory step.**
+**CRITICAL: The orchestrator MUST complete Phase 1 (scan) and Phase 1.5 (spec) entirely before reading any file content or spawning any extractor agents.**
 
 1. **Inventory** — Recursively list all files in the target directory with their sizes.
    - Use a single shell command to get file paths + sizes (e.g., `Get-ChildItem -Recurse -File | Select Path, Length`)
@@ -43,6 +43,29 @@ Skipped: N (binary/noise)
 Size distribution: N files <10KB, N files 10-50KB, N files >50KB
 Estimated processing: N agent rounds
 ```
+
+## Phase 1.5: Generate Distillation Spec (Spec-Driven Execution)
+
+**Before reading any file content or spawning agents, write an execution plan to `{output_dir}/.distill-spec.md`.**
+
+The spec is a markdown file that contains:
+
+1. **File inventory table** — every processable file with size, type, read strategy, and assigned dimensions
+2. **Dimension plan** — for each dimension: which files it receives, expected output files, total input size
+3. **Execution strategy** — number of parallel agents, token budget, chunking decisions
+4. **Post-extraction plan** — synthesizer steps, density check thresholds
+
+See `agents/orchestrator.md` Step 2 for the full spec template.
+
+### Why Spec-Driven?
+
+1. **Review gate** — The plan can be reviewed before committing resources (tokens, time).
+2. **Execution tracking** — During execution, update the spec with per-dimension status (✅/❌/⏳).
+3. **Audit trail** — After completion, the spec documents what happened, what failed, and why.
+4. **Reproducibility** — Re-running with the same spec produces the same assignment.
+5. **Debugging** — When an extractor produces poor output, the spec shows exactly what content it received.
+
+**The spec file persists in the Relic directory as `.distill-spec.md` and is NOT deleted after completion.**
 
 ### Why Orchestrator Pre-Reads
 
